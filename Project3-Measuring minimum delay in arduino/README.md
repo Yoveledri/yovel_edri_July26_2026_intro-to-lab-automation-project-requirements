@@ -20,7 +20,7 @@ If using the AI agent, please write below what changes were done compared to the
 run code:
 
 - upload to arduino
-- can you see the led blink? Why?
+- can you see the led blink? Why? no 1ms is too quick for the human eye.
 
 ## Use logic analyzer to see and measure the blink
 
@@ -31,7 +31,7 @@ run code:
 - connect to ADALM2000
 - open scopy logic analyzer
 - activate DIO0 and rising edge and run (why?)
-- play with the scopy parameters until you can see the separate blinks. Which parameter(s) do you need to change?
+- play with the scopy parameters until you can see the separate blinks. Which parameter(s) do you need to change? sample rate,  in order to capture the signal proportionally.
 - use cursors and sample rate to measure the pulse width
 - take screenshots and add them to the README below.
 
@@ -53,7 +53,7 @@ run code:
 - push to your repo.
 
 ## Exercise
-
+![alt text](<Screenshot 2026-07-26 131839.png>)
 Paste screenshots below.
 Comparison of AI changes if any:
-![alt text](<צילום מסך 2026-07-12 132359.png>)
+![alt text](<צילום מסך 2026-07-12 132359.png>)![alt text](<Screenshot 2026-07-26 132747.png>)

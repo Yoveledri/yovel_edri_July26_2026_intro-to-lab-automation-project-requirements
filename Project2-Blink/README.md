@@ -21,4 +21,4 @@
  - no need to commit anything in this project
 
 ## Results
-- LED blinks when: 
+- LED blinks when: 1000 ms have passed.
