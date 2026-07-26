@@ -26,7 +26,7 @@
  - push the file to your repo.
 
 ## Exercise
-- pressure value: 
-- led blinks when:
-- led is constant when:
-- buzzer plays when: 
+- pressure value: 100318.00Pa
+- led blinks when: pressing the D6 button
+- led is constant when: after a long D6 press (when in "mode").
+- buzzer plays when: entering "mode".
