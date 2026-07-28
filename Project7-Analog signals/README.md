@@ -30,10 +30,10 @@ The purpose of this project is to dim and increase the led light using the rotar
 - View in voltmeter - stop scope first. See the average voltage change. What does it mean?
 - what happens when using 30Hz instead of 50Hz for the PWM?
 the average voltage ranges from 0 to 5.124 depending on the rotary state.
-
+changing to 30 hz doesnt change the range of the average voltage change.
 
 - paste a screenshot of the oscilloscope where both the rotary potentiometer signal and the PWM signal on the led are seen.
-
+![alt text](image-1.png)
 ## Use PWM to control a servo motor
 
 Documentation on Servo [here](https://wiki.seeedstudio.com/Grove-Servo/)
@@ -42,12 +42,20 @@ Documentation on Servo [here](https://wiki.seeedstudio.com/Grove-Servo/)
 - install Servo package if not already installed
 - initialize Servo package with pin 7
 - first look at the PWM signal in adalm. What frequency is the Servo package using?
+
+~~ 50 hz
+
 - connect to servo using D7 breakout (there is only one way to do this, ground - black wire - close to the grove led). 
 - turn rotary to turn the servo
 - How does the range of the duty cycle in servo motor compare to the range of the duty cycle we used in the LED? Use the scope.
+
+SERVO 2.7% - 11.30% 
+LED  
+
+
 - is the range of angles in our servo the same as the range of the angles in the Servo package? change the range of values to the servo accordingly.
 - Paste a screenshot of the scope showing the maximum duty cycle of the servo (the maximum angle the servo succeeded rotating without problems)
-
+![alt text](image-2.png)
 ## Exercises
  - Comparison of AI changes if any:
 - commit and push both .ino files and their folders to your repository
