@@ -30,6 +30,6 @@ enter the delay in usec here: 3.591
 - Comparison of AI changes if any:
 ![alt text](image.png)
 ## Git
- - Comparison of AI changes if any:
+ - Comparison of AI changes if any
  - Commit and push the two programs and the README into the repository
 

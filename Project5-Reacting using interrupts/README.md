@@ -22,10 +22,11 @@ for (int i = 0; i< 10000; i++){
 }
 ```
 - test if lighting led still works. Why or why not?
-answer here: __________
+answer here: No. according to the serial monitor it is on "calculating". if the button is pressed long enough and the calculation is simpler (e.g. 100), the led is on.
 
 ## Use interrupt to light led
 - Add code to create an interrupt pin (why can't it be the button pin?). Use a variable for this.
+The button pin is pin 6; pin 6 in Arduino cannot be used for interrupts. 
 - Short the interrupt pin with the button pin
 - test. Does it work?
 
