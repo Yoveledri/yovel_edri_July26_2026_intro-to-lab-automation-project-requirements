@@ -50,7 +50,7 @@ Documentation on Servo [here](https://wiki.seeedstudio.com/Grove-Servo/)
 - How does the range of the duty cycle in servo motor compare to the range of the duty cycle we used in the LED? Use the scope.
 
 SERVO 2.7% - 11.30% 
-LED  
+LED   0 -100
 
 
 - is the range of angles in our servo the same as the range of the angles in the Servo package? change the range of values to the servo accordingly.

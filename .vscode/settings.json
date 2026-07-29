@@ -2,5 +2,6 @@
     "cSpell.words": [
         "ADALM",
         "scopy"
-    ]
+    ],
+    "python-envs.defaultEnvManager": "ms-python.python:system"
 }
