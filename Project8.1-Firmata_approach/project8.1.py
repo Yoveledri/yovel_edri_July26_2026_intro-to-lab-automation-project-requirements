@@ -21,7 +21,7 @@ from telemetrix import telemetrix
 # --------------------------------------------------------------------------- #
 
 BUTTON_PIN = 2          # Pin connected to push button (Internal Pullup)
-LED_PIN = 13            # Pin connected to LED
+LED_PIN = 4            # Pin connected to LED
 GUI_POLL_MS = 100       # How often the GUI loop drains the queue
 
 STATE_MESSAGES = {

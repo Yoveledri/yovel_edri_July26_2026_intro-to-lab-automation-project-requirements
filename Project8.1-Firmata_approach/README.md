@@ -24,23 +24,29 @@
 8. Include comments explaining the functionality of each part of the code.
 9. Write the script in a clean, organized, and efficient manner following good programming practices.
 
+telemetrix 38.15 ms (average of 5 measurement), sd = 4.83
+mstimer (non firmata/telemetrix) 30.042 ms (mean of 5), sd = 0.67
 
 ## Exercises
 Comparison of AI changes if any:
 
 Paste a screenshot of the GUI here:
-
+![alt text](image.png)
 Paste a screenshot of the logic analyzer here that presents the time the LED is ON when pressing the button.
-
+![alt text](image-1.png)
 ```
 What is the difference between the two versions (with pymata4 and firmata and without) of the script? Which one was easier to code? Where was thread handling easier?
 
-Answer: __________
+Answer: in telemetrix the pc is the 'brain', in non-telemetrix the arduino is the brain. 
+the non-telemetrix (with mstimer) was easier to code and to handle threads.
 
 
 What can you say about the accuracy of the timing between the firmata version and your arduino code version?
 which one is more accurate and why?
+non-telemetrix was more accurate than telemetrix.
+assuming because each command in telemetrix travels from arduino to pc (because pc is the brain).
 
 What are the advantages and disadvantages of using the pymata4 package?
 
-Answer: __________
+Answer: maybe for more complex projects where you want the pc to be the brain. 
+but if you want the arduino to run with a different computer it will not work.
